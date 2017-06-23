@@ -14,5 +14,7 @@ public class Homepage_Tests extends Utils {
 		driver.get("http://automationpractice.com/");
 		HomePage.SignInLink(driver).isDisplayed();
 		HomePage.SignInLink(driver).click();
+		HomePage.CartLink(driver).isDisplayed();
+		HomePage.CartLink(driver).click();
 	}
 }

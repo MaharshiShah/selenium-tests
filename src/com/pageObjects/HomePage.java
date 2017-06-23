@@ -16,4 +16,9 @@ public class HomePage {
 		element = driver.findElement(By.className("login"));
 		return element;
 	}
+	
+	public static WebElement CartLink(WebDriver driver) {
+		element = driver.findElement(By.className("shopping_cart"));
+		return element;
+	}
 }
