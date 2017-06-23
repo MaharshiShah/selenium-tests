@@ -18,7 +18,7 @@ public class HomePage {
 	}
 	
 	public static WebElement CartLink(WebDriver driver) {
-		element = driver.findElement(By.className("shopping_cart"));
+		element = driver.findElement(By.cssSelector("a[title=\"View my shopping cart\"]"));
 		return element;
 	}
 }
